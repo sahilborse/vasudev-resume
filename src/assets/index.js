@@ -31,7 +31,6 @@ import toonTranslator from"./toon-translator.png";
 import erc from "./company/ERC.jpg";
 import codeEditor from"./code-editor.png";
 import codeSnippet from "./code-snippet.png";
-
 import Icon from "./Icon.svg"
 
 export {
