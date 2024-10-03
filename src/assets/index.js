@@ -26,7 +26,7 @@ import angular from "./tech/angular.png"
 import env from "./company/ENV-logo.png";
 import semanticAnalyzer from "./semantic-analyzer.png";
 import noteMint from "./NoteMint.png"
-import bookMania from "./BookMania.png";
+import bookMania from "./bookMania.png";
 import toonTranslator from"./toon-translator.png";
 import erc from "./company/ERC.jpg";
 import codeEditor from"./code-editor.png";
