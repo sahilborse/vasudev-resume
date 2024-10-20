@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import HeadCanva from "./HeadCanva";
+import { FaLinkedin,FaCode,FaGithub } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -19,8 +20,23 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
+        <div className="d-inlineflex">
+          <br/>
+          <a href="https://www.linkedin.com/in/sahil-borse-517168251/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size={30} color="#fffff" />
+          </a>
+          <br/>
+          <a href="https://github.com/sahilborse" target="_blank" rel="noopener noreferrer">
+            <FaGithub size={30} color="#fff" />
+          </a>
+          <br/>
+          <a href="https://leetcode.com/u/user2919mw/" target="_blank" rel="noopener noreferrer">
+            <FaCode size={30} color="#fff" />
+          </a>
+        </div>
 
         <div>
+        
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Sahil</span>
           </h1>
@@ -28,6 +44,7 @@ const Hero = () => {
             I develop 3D visuals, user <br className="sm:block hidden" />
             interfaces and web applications
           </p>
+          
         </div>
       </div>
 
