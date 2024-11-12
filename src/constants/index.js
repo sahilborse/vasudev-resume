@@ -285,7 +285,7 @@ const projects = [
       },
     ],
     image: course_blog,
-    source_code_link: "hhttps://github.com/sahilborse/course_blog.git",
+    source_code_link: "https://github.com/sahilborse/course_blog.git",
   },
   {
     name: "Code-snippet",
