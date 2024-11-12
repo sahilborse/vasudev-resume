@@ -24,6 +24,7 @@ import angular from "./tech/angular.png"
 
 
 import env from "./company/ENV-logo.png";
+import course_blog from "./course_blog.png"
 import semanticAnalyzer from "./semantic-analyzer.png";
 import noteMint from "./NoteMint.png"
 import bookMania from "./bookMania.png";
