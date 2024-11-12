@@ -23,7 +23,8 @@ import {
   toonTranslator,
   bookMania,
   noteMint,
-  semanticAnalyzer
+  semanticAnalyzer,
+  course_blog
 } from "../assets";
 
 export const navLinks = [
@@ -265,6 +266,26 @@ const projects = [
     ],
     image: bookMania,
     source_code_link: "https://github.com/sahilborse/BookMania.git",
+  },
+  {
+    name: "Course_Blog",
+    description: "A course and blog application enabling users to explore and purchase courses, with robust two-step authentication options provided via Google, Facebook, and LinkedIn integration.",
+    tags: [
+      {
+        name: "NEXTJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CLERK",
+        color: "green-text-gradient",
+      },
+      {
+        name: "POSTGRES",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: course_blog,
+    source_code_link: "hhttps://github.com/sahilborse/course_blog.git",
   },
   {
     name: "Code-snippet",

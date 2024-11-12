@@ -61,6 +61,7 @@ export {
   erc,
   codeEditor,
   semanticAnalyzer,
+  course_blog,
   codeSnippet,
   noteMint,
   toonTranslator,
