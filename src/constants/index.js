@@ -22,6 +22,7 @@ import {
   codeEditor,
   toonTranslator,
   bookMania,
+  chatterapp,
   noteMint,
   semanticAnalyzer,
   course_blog
@@ -203,6 +204,27 @@ const experiences = [
 // ];
 
 const projects = [
+  {
+    name: "Toon Translator",
+    description:
+      "I built a React.js real-time chat app with Socket.IO, offering theme customization, profile management, and Cloudinary integration. Video calling is planned.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SocketIO",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatterapp,
+    source_code_link: "https://github.com/sahilborse/chatterApp.git",
+  },
   {
     name: "Toon Translator",
     description:
