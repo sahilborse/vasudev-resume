@@ -205,7 +205,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "Toon Translator",
+    name: "Chatter-App",
     description:
       "I built a React.js real-time chat app with Socket.IO, offering theme customization, profile management, and Cloudinary integration. Video calling is planned.",
     tags: [
